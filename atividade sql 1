@@ -1,0 +1,14 @@
+create schema sucos_vendas;
+
+# Problema 1, 2, 3, 4, 5 resoluçao 
+
+select nome, de_ferias, bairro from tabela_de_vendedores where nome = 'Cláudia Morais' and bairro = 'Jardins';
+select * from tabela_de_vendedores where percentual_comissao > 0.10 and de_ferias = 1;
+select * from notas_fiscais where matricula = '00237' or DATA_VENDA = '2015-01-12';
+select codigo_do_produto, quantidade from itens_notas_fiscais where QUANTIDADE >= 99;
+select * from itens_notas_fiscais;
+select * from itens_notas_fiscais where numero = 102 and CODIGO_DO_PRODUTO = '1101035';
+select * from notas_fiscais where numero = 102;
+select * from tabela_de_clientes where cpf ='8502682733';
+select bairro from tabela_de_vendedores where MATRICULA = '00236';
+select nome_do_produto, sabor from tabela_de_produtos where codigo_do_produto = '110135';
