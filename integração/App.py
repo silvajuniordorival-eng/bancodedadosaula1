@@ -14,10 +14,6 @@ db_config = {
     'database': 'cadastro'
 }
 
-#criando a rota para acessar o arquivo html
-@app.route('/')
-def index():
-    return render_template('index.html')
 
 @app.route('/')
 def index():

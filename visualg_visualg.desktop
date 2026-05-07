@@ -1,0 +1,9 @@
+[Desktop Entry]
+X-SnapInstanceName=visualg
+Type=Application
+Name=VisualG
+Comment=Português Estruturado (Portugol)
+Icon=/snap/visualg/22/visualg.png
+Exec=/usr/local/bin/visualgstart.sh
+Terminal=false
+Categories=Education;Utility;TextEditor

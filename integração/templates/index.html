@@ -26,13 +26,14 @@
         <h2>Lita de Clientes*</h2>
   <table>
       <thead>
+        <tr>
           <th>CPF</th>
           <th>primeiro_nome</th>
           <th>sobrenome</th>
           <th>idade</th>
+         </tr>
           <tbody>
               {% for cliente in t_clientes%}
-              <tr>
                <td>{{cliente.CPS}}</td>
                <td>{{cliente.primeiro_nome}}</td>
                <td>{{cliente.sobrenome}}</td>
